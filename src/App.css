@@ -88,9 +88,9 @@ body
     height:10vh;
     width:5vw;
     position:fixed;
+    display: none;
     left:3vw;
     top:45vh;
-    border:2px solid red;
     z-index: 3;
     overflow: hidden;
 }
@@ -101,9 +101,13 @@ body
     position:fixed;
     right:3vw;
     top:45vh;
-    border:2px solid red;
     z-index: 3;
     overflow: hidden;
+}
+
+button
+{
+    border: none;
 }
 
 button > img 
